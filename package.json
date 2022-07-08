@@ -1,0 +1,10 @@
+{
+  "name": "music-bot",
+  "author": "Sasanka <sajewsasanka1@gmail.com>",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest",
+    "ytdl-core": "^4.9.1",
+    "yt-search": "^2.10.2"
+  }
+}
