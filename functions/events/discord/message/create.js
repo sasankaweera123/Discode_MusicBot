@@ -5,7 +5,7 @@ const lib = require('lib')({token: process.env.STDLIB_SECRET_TOKEN});
 const ytdl = require('ytdl-core');
 const ytSearch = require('yt-search');
 
-let VOICE_CHANNEL = '789429088862339124';
+let VOICE_CHANNEL = '#########YourChanelID#######';
 let message = context.params.event.content;
 
 if (message.startsWith('!play')) {
