@@ -4,7 +4,7 @@ const lib = require('lib')({token: process.env.STDLIB_SECRET_TOKEN});
 
 const ytdl = require('ytdl-core');
 
-let VOICE_CHANNEL = '789429088862339124'; // Set this to the voice channel of your choice.
+let VOICE_CHANNEL = '#YourChanelID#'; // Set this to the voice channel of your choice.
 let queueKey = `${context.params.event.guild_id}:musicQueue`;
 let currentQueue = await lib.utils.kv['@0.1.16'].get({
   key: queueKey,
